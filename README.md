@@ -122,12 +122,23 @@ Vysvětlení: AI asistence byla použita jako podpora při návrhu struktury web
 
 Použité promptové příkazy a výsledky:
 
-1. `zkontroluj mi radsi vsechny soubory ze slozky projekt ze je vse spravne`
-   - AI pomohla najít chyby v relativních cestách k CSS a obrázkům.
-2. `co vubec delaji ty veci co si pridal`
-   - AI vysvětlila účel meta tagů a `robots.txt`.
-3. `přidej dokumentaci` (nebo podobné požadavky)
-   - AI vytvořila dokumentační stránku a README popisující technické oblasti.
+Prompt: „zkontroluj mi cesty v projektu a oprav odkazy na CSS/obrázky“
+Výsledek: identifikoval/a chyby v relativních cestách a navrhl/a opravy pro funkční zobrazení.
+
+Prompt: „přidej SEO a sociální meta tagy do všech stránek“
+Výsledek: doplněny Open Graph, Twitter Cards a robots.txt bez změny vzhledu.
+
+Prompt: „vytvoř dokumentaci projektu a README podle zadání“
+Výsledek: vytvořená stránka dokumentace + README se všemi požadovanými sekcemi.
+
+Prompt: „přidej přístupnost a ARIA atributy“
+Výsledek: v menu a hlavním obsahu přidán popis role a lepší orientace pro čtečky obrazovky.
+
+Prompt: „upravi mi layout tak, aby byly obrázky ve stejné velikosti“
+Výsledek: obrázky v kartách nastavené na pevnou výšku s object-fit cover.
+
+Prompt: „připrav projekt pro GitHub Pages“
+Výsledek: přesun HTML souborů do kořene, aktualizace cest a přidané .gitignore.
 
 Tato AI asistence zrychlila kontrolu projektu, eliminovala chyby v cestách a doplnila vysvětlující dokumentaci.
 
