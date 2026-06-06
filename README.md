@@ -109,14 +109,13 @@ Vysvětlení: tato mřížka umožňuje automatické rozložení karet podle š�
 
 ### 6) AI Integrace
 
-Teoreticky:
 - AI pomáhá s kontrolou cesty k souborům, návrhem dokumentace a vysvětlením technických kroků.
 
 Kód:
 ```html
-<!-- AI pomohla vytvořit tuto dokumentaci a optimalizaci -->
+<!-- AI pomohla vytvořit optimalizaci -->
 ```
-Vysvětlení: AI asistence byla použita jako podpora při návrhu struktury webu, dokumentace a technických poznámek.
+Vysvětlení: AI asistence byla použita jako podpora při návrhu struktury webu a technických poznámek.
 
 ## AI deník
 
@@ -128,14 +127,11 @@ Výsledek: identifikoval/a chyby v relativních cestách a navrhl/a opravy pro f
 Prompt: „přidej SEO a sociální meta tagy do všech stránek“
 Výsledek: doplněny Open Graph, Twitter Cards a robots.txt bez změny vzhledu.
 
-Prompt: „vytvoř dokumentaci projektu a README podle zadání“
-Výsledek: vytvořená stránka dokumentace + README se všemi požadovanými sekcemi.
-
 Prompt: „přidej přístupnost a ARIA atributy“
 Výsledek: v menu a hlavním obsahu přidán popis role a lepší orientace pro čtečky obrazovky.
 
-Prompt: „upravi mi layout tak, aby byly obrázky ve stejné velikosti“
-Výsledek: obrázky v kartách nastavené na pevnou výšku s object-fit cover.
+Prompt: „přidej komentáře ke kódu“
+Výsledek: byly přidány komentáře ke kódu pro lepší porozumění.
 
 Prompt: „připrav projekt pro GitHub Pages“
 Výsledek: přesun HTML souborů do kořene, aktualizace cest a přidané .gitignore.
@@ -150,29 +146,3 @@ Tato AI asistence zrychlila kontrolu projektu, eliminovala chyby v cestách a do
 
 Alternativně:
 - Otevřete `projekt/html/index.html` přímo ve svém prohlížeči.
-
-## Galerie
-
-Desktopová verze:
-
-![Desktop screenshot](screenshots/desktop.png)
-
-Mobilní verze:
-
-![Mobilní screenshot](screenshots/mobile.png)
-
-Klíčové funkce:
-
-- ![Navigace](screenshots/navigation.png)
-- ![Hero sekce](screenshots/hero.png)
-
-> Poznámka: Snímek obrazovky nahrajte do složky `screenshots/` a nahraďte výše uvedené cesty skutečnými soubory.
-
-## Nasazení
-
-Web musí být nahrán do veřejného repozitáře na GitHubu.
-Po nasazení na GitHub Pages použijte adresu:
-
-`https://<github-username>.github.io/<repo-name>/`
-
-Odevzdává se pouze odkaz na veřejný GitHub repozitář.
